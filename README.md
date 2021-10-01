@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <!--
-**chanderbhanu096/chanderbhanu096** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**chanderbhanu096/chanderbhanu096** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=chanderbhanu096&hide=contribs,prs)
 
 Here are some ideas to get you started:
@@ -14,4 +14,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: chanderbhanu096@gmail.com
 - 😄 Pronouns: ...
 - ⚡ Fun fact: I love listening to music while trekking :musical_note:
--->
+
