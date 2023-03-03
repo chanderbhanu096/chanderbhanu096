@@ -14,5 +14,5 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: chanderbhanu096@gmail.com
 - 😄 Pronouns: ...
-- ⚡ Fun fact: I love listening to music while trekking :musical_note:
+- ⚡ Fun fact: ===============:
 
