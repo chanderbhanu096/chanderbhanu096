@@ -7,7 +7,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on Nothing
+- 🔭 I’m currently working on SQL, Machine Learning, Data Science, Angular
 - 🌱 I’m currently learning Web Development(Mostly Different Libraries)
 - 👯 I’m looking to collaborate on Anything
 - 🤔 I’m looking for help with React
