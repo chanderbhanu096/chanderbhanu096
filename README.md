@@ -27,9 +27,15 @@ Focused on **practical, scalable systems** using modern data and ML tools.
 
 ## 📌 Featured Projects
 
-🔗 **[NYC Taxi Data Engineering & ML Pipeline](https://github.com/chanderbhanu096/nyc-taxi-data-engineering-ml)**  
-🔗 **[Sentiment Analysis with Deep Learning](https://github.com/chanderbhanu096/sentiment-analysis-pytorch)**  
-🔗 **[Seoul Bike Sharing Demand Forecasting](https://github.com/chanderbhanu096/seoul-bike-demand-analysis)**  
+🔗 **[NYC Taxi Data Engineering & ML Pipeline](https://github.com/chanderbhanu096/nyc-taxi-ml-pipeline)**  
+(PySpark • Airflow • Azure • ML Pipeline)
+
+🔗 **[Sentiment Analysis with Deep Learning](https://github.com/chanderbhanu096/sentiment-analysis-nlp)**  
+(PyTorch • NLP • CNN/LSTM)
+
+🔗 **[Seoul Bike Sharing Demand Forecasting](https://github.com/chanderbhanu096/Seoul-Bike-Sharing-Demand)**  
+(Python • XGBoost • SHAP • Tableau)
+
 
 ---
 
