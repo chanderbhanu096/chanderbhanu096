@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+<title id="title">Animated neon technology map</title><desc id="desc">Colorful animated technology pills for AI, data, machine learning and cloud engineering.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1020"/><stop offset=".5" stop-color="#12152a"/><stop offset="1" stop-color="#1c1430"/></linearGradient>
+  <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#7dd3fc" stop-opacity="0"/><stop offset=".5" stop-color="#c084fc" stop-opacity=".28"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient>
+  <style>
+    .label{font:600 15px monospace;fill:#e8e9fa}.sub{font:11px monospace;fill:#8991ad}.chip{stroke-width:1.2;animation:glow 5s ease-in-out infinite}.c2{animation-delay:.5s}.c3{animation-delay:1s}.c4{animation-delay:1.5s}.c5{animation-delay:2s}.c6{animation-delay:2.5s}.c7{animation-delay:3s}.c8{animation-delay:3.5s}.c9{animation-delay:4s}.scan{animation:scan 7s linear infinite}
+    @keyframes glow{0%,100%{opacity:.72}50%{opacity:1;filter:drop-shadow(0 0 6px rgba(160,120,255,.4))}}@keyframes scan{from{transform:translateX(-360px)}to{transform:translateX(1220px)}}
+  </style>
+</defs>
+<rect x="2" y="2" width="1096" height="246" rx="22" fill="url(#bg)" stroke="#6d63a8" stroke-opacity=".28"/>
+<text x="34" y="38" class="label">STACK / SIGNALS</text><text x="34" y="57" class="sub">things I use, study, and build with</text>
+<g transform="translate(34 82)">
+  <g class="chip"><rect width="126" height="50" rx="15" fill="#13263e" stroke="#60a5fa"/><circle cx="25" cy="25" r="12" fill="#3776ab"/><text x="45" y="30" class="label">Python</text></g>
+  <g class="chip c2" transform="translate(140)"><rect width="116" height="50" rx="15" fill="#102b28" stroke="#34d399"/><circle cx="25" cy="25" r="12" fill="#34d399"/><text x="45" y="30" class="label">SQL</text></g>
+  <g class="chip c3" transform="translate(270)"><rect width="138" height="50" rx="15" fill="#281a37" stroke="#c084fc"/><circle cx="25" cy="25" r="12" fill="#a855f7"/><text x="45" y="30" class="label">PyTorch</text></g>
+  <g class="chip c4" transform="translate(422)"><rect width="126" height="50" rx="15" fill="#24223b" stroke="#8b5cf6"/><circle cx="25" cy="25" r="12" fill="#8b5cf6"/><text x="45" y="30" class="label">LLMs</text></g>
+  <g class="chip c5" transform="translate(562)"><rect width="132" height="50" rx="15" fill="#2b2030" stroke="#f472b6"/><circle cx="25" cy="25" r="12" fill="#ec4899"/><text x="45" y="30" class="label">Agents</text></g>
+  <g class="chip c6" transform="translate(708)"><rect width="118" height="50" rx="15" fill="#182a32" stroke="#22d3ee"/><circle cx="25" cy="25" r="12" fill="#06b6d4"/><text x="45" y="30" class="label">RAG</text></g>
+  <g class="chip c7" transform="translate(840)"><rect width="118" height="50" rx="15" fill="#2b2520" stroke="#fbbf24"/><circle cx="25" cy="25" r="12" fill="#f59e0b"/><text x="45" y="30" class="label">MCP</text></g>
+</g>
+<g transform="translate(118 151)">
+  <g class="chip c2"><rect width="132" height="50" rx="15" fill="#122b38" stroke="#38bdf8"/><circle cx="25" cy="25" r="12" fill="#0ea5e9"/><text x="45" y="30" class="label">Azure</text></g>
+  <g class="chip c3" transform="translate(146)"><rect width="136" height="50" rx="15" fill="#182230" stroke="#60a5fa"/><circle cx="25" cy="25" r="12" fill="#2496ed"/><text x="45" y="30" class="label">Docker</text></g>
+  <g class="chip c4" transform="translate(296)"><rect width="146" height="50" rx="15" fill="#241d37" stroke="#a78bfa"/><circle cx="25" cy="25" r="12" fill="#7c3aed"/><text x="45" y="30" class="label">Terraform</text></g>
+  <g class="chip c5" transform="translate(456)"><rect width="138" height="50" rx="15" fill="#2b201d" stroke="#fb923c"/><circle cx="25" cy="25" r="12" fill="#f97316"/><text x="45" y="30" class="label">Airflow</text></g>
+  <g class="chip c6" transform="translate(608)"><rect width="138" height="50" rx="15" fill="#251e2e" stroke="#f472b6"/><circle cx="25" cy="25" r="12" fill="#ec4899"/><text x="45" y="30" class="label">FastAPI</text></g>
+  <g class="chip c7" transform="translate(760)"><rect width="146" height="50" rx="15" fill="#172a25" stroke="#4ade80"/><circle cx="25" cy="25" r="12" fill="#22c55e"/><text x="45" y="30" class="label">MLOps</text></g>
+</g>
+<rect class="scan" x="-300" y="70" width="280" height="145" fill="url(#scan)" transform="skewX(-18)"/>
+</svg>
