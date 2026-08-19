@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Animated night coder scene</title>
+  <desc id="desc">An original lofi synthwave night scene with a lone coder, city lights, rain, glowing monitors, coffee steam, and subtle terminal motion.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.45" stop-color="#121329"/>
+      <stop offset="1" stop-color="#24143a"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" x2="1"><stop stop-color="#171827"/><stop offset="1" stop-color="#252038"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11283d"/><stop offset="1" stop-color="#241a3d"/></linearGradient>
+    <radialGradient id="moon"><stop stop-color="#d9edff"/><stop offset="0.35" stop-color="#9fd0ff"/><stop offset="1" stop-color="#6f7dff" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="windowClip"><rect x="60" y="48" width="1080" height="300" rx="24"/></clipPath>
+    <style>
+      .star{fill:#dbe8ff;animation:twinkle 4s ease-in-out infinite}.s2{animation-delay:1.2s}.s3{animation-delay:2.3s}.s4{animation-delay:.6s}
+      .rain{stroke:#8ab8ff;stroke-width:2;stroke-linecap:round;opacity:.18;animation:rain 1.7s linear infinite}.r2{animation-delay:.45s}.r3{animation-delay:.9s}.r4{animation-delay:1.2s}
+      .win{fill:#ffd986;opacity:.18;animation:cityBlink 5s ease-in-out infinite}.w2{animation-delay:1.5s}.w3{animation-delay:3s}
+      .code{fill:#79f2c0;opacity:.8;animation:codePulse 3s ease-in-out infinite}.pink{fill:#f38cff}.blue{fill:#78b7ff}.dim{opacity:.35}
+      .cursor{fill:#a7f3ff;animation:blink 1s steps(1) infinite}
+      .hand{animation:type .32s ease-in-out infinite alternate;transform-origin:610px 366px}
+      .screenGlow{animation:screenGlow 4s ease-in-out infinite}
+      .steam{fill:none;stroke:#d9dcff;stroke-width:3;stroke-linecap:round;opacity:.22;animation:steam 3s ease-in-out infinite}.st2{animation-delay:1s}
+      .particle{fill:#c5b8ff;opacity:.14;animation:float 7s ease-in-out infinite}.p2{animation-delay:2s}.p3{animation-delay:4s}
+      .meteor{stroke:#b9d9ff;stroke-width:2;opacity:0;animation:meteor 8s linear infinite}
+      @keyframes twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+      @keyframes rain{0%{transform:translate(0,-70px)}100%{transform:translate(-28px,360px)}}
+      @keyframes cityBlink{0%,100%{opacity:.12}50%{opacity:.58}}
+      @keyframes codePulse{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes type{from{transform:rotate(-1deg) translateY(0)}to{transform:rotate(1deg) translateY(2px)}}
+      @keyframes screenGlow{0%,100%{opacity:.55}50%{opacity:.95}}
+      @keyframes steam{0%{transform:translateY(8px);opacity:0}40%{opacity:.24}100%{transform:translateY(-24px);opacity:0}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+      @keyframes meteor{0%,72%{opacity:0;transform:translate(0,0)}74%{opacity:.65}84%{opacity:0;transform:translate(-180px,90px)}100%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="460" rx="28" fill="url(#sky)"/>
+  <rect x="36" y="26" width="1128" height="352" rx="30" fill="#090d18" stroke="#6c5ce7" stroke-opacity=".28"/>
+  <g clip-path="url(#windowClip)">
+    <rect x="60" y="48" width="1080" height="300" fill="#0a1020"/>
+    <circle cx="935" cy="105" r="88" fill="url(#moon)" filter="url(#blur)" opacity=".8"/>
+    <circle cx="935" cy="105" r="35" fill="#dceeff" opacity=".88"/>
+    <circle class="star" cx="165" cy="93" r="2.2"/><circle class="star s2" cx="275" cy="74" r="1.7"/><circle class="star s3" cx="410" cy="119" r="2"/><circle class="star s4" cx="755" cy="78" r="2.1"/><circle class="star s2" cx="1030" cy="148" r="1.8"/><circle class="star s3" cx="842" cy="155" r="1.5"/>
+    <line class="meteor" x1="1085" y1="82" x2="1135" y2="58"/>
+
+    <g opacity=".85">
+      <path d="M60 258 L120 214 L172 244 L215 188 L263 234 L315 210 L365 252 L420 205 L473 245 L528 217 L582 251 L632 201 L683 242 L735 194 L785 237 L846 212 L906 247 L958 197 L1010 236 L1060 210 L1140 253 L1140 348 L60 348 Z" fill="#10162a"/>
+      <g fill="#151c32">
+        <rect x="95" y="230" width="62" height="118"/><rect x="183" y="207" width="78" height="141"/><rect x="290" y="240" width="58" height="108"/><rect x="373" y="218" width="74" height="130"/><rect x="474" y="235" width="66" height="113"/><rect x="690" y="218" width="62" height="130"/><rect x="778" y="232" width="76" height="116"/><rect x="878" y="213" width="70" height="135"/><rect x="982" y="228" width="88" height="120"/>
+      </g>
+      <g>
+        <rect class="win" x="112" y="248" width="8" height="12"/><rect class="win w2" x="133" y="270" width="8" height="12"/><rect class="win w3" x="204" y="230" width="9" height="13"/><rect class="win" x="228" y="255" width="9" height="13"/><rect class="win w3" x="396" y="240" width="9" height="13"/><rect class="win w2" x="420" y="270" width="9" height="13"/><rect class="win" x="713" y="242" width="9" height="13"/><rect class="win w2" x="806" y="258" width="9" height="13"/><rect class="win w3" x="905" y="237" width="9" height="13"/><rect class="win" x="1021" y="250" width="9" height="13"/>
+      </g>
+    </g>
+
+    <g>
+      <line class="rain" x1="110" y1="34" x2="89" y2="72"/><line class="rain r2" x1="205" y1="21" x2="184" y2="59"/><line class="rain r3" x1="352" y1="44" x2="331" y2="82"/><line class="rain r4" x1="520" y1="10" x2="499" y2="48"/><line class="rain r2" x1="676" y1="35" x2="655" y2="73"/><line class="rain r3" x1="833" y1="18" x2="812" y2="56"/><line class="rain r4" x1="1010" y1="33" x2="989" y2="71"/><line class="rain" x1="1135" y1="4" x2="1114" y2="42"/>
+    </g>
+  </g>
+
+  <rect x="60" y="48" width="1080" height="300" rx="24" fill="none" stroke="#8aa2ff" stroke-opacity=".18"/>
+  <path d="M600 48 V348" stroke="#8aa2ff" stroke-opacity=".12"/>
+
+  <g class="screenGlow" filter="url(#glow)">
+    <rect x="205" y="248" width="220" height="118" rx="12" fill="#202743" stroke="#7c8cff" stroke-opacity=".55"/>
+    <rect x="225" y="267" width="180" height="78" rx="7" fill="url(#screen)"/>
+    <rect x="244" y="284" width="76" height="5" rx="2.5" class="code"/><rect x="244" y="299" width="112" height="5" rx="2.5" class="blue dim"/><rect x="244" y="314" width="93" height="5" rx="2.5" class="pink dim"/>
+
+    <rect x="775" y="248" width="220" height="118" rx="12" fill="#202743" stroke="#ea8cff" stroke-opacity=".48"/>
+    <rect x="795" y="267" width="180" height="78" rx="7" fill="url(#screen)"/>
+    <rect x="814" y="283" width="104" height="5" rx="2.5" class="pink"/><rect x="814" y="298" width="78" height="5" rx="2.5" class="blue dim"/><rect x="814" y="313" width="125" height="5" rx="2.5" class="code dim"/><rect class="cursor" x="944" y="310" width="7" height="11" rx="1"/>
+  </g>
+
+  <ellipse cx="601" cy="396" rx="165" ry="18" fill="#090a14" opacity=".7"/>
+  <rect x="50" y="372" width="1100" height="54" rx="12" fill="url(#desk)"/>
+  <rect x="50" y="417" width="1100" height="18" rx="7" fill="#0d0e17"/>
+
+  <g>
+    <path d="M520 346 Q532 302 567 288 Q600 272 633 288 Q670 304 683 346 L693 388 L507 388 Z" fill="#171a2c"/>
+    <circle cx="600" cy="280" r="36" fill="#24243a"/>
+    <path d="M565 279 Q574 238 603 242 Q633 241 644 278 Q629 259 602 258 Q581 259 565 279Z" fill="#0c0e18"/>
+    <path d="M565 276 Q550 280 553 301" fill="none" stroke="#9f7aea" stroke-width="7" stroke-linecap="round"/>
+    <path d="M635 276 Q650 280 647 301" fill="none" stroke="#9f7aea" stroke-width="7" stroke-linecap="round"/>
+    <path d="M557 300 Q600 320 643 300" fill="none" stroke="#9f7aea" stroke-width="4" opacity=".6"/>
+  </g>
+
+  <g class="hand">
+    <path d="M551 353 Q520 360 489 375" fill="none" stroke="#27263c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M649 353 Q680 360 711 375" fill="none" stroke="#27263c" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <rect x="498" y="367" width="205" height="11" rx="5.5" fill="#34344d"/>
+  <rect x="520" y="370" width="162" height="5" rx="2.5" fill="#6f6c91" opacity=".38"/>
+
+  <g>
+    <rect x="90" y="348" width="82" height="34" rx="8" fill="#1f2030" stroke="#64d9ff" stroke-opacity=".35"/>
+    <text x="104" y="370" fill="#a7e6ff" font-size="14" font-family="monospace">01:44</text>
+    <circle cx="156" cy="364" r="4" fill="#69ffb7"><animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g>
+    <rect x="1015" y="348" width="48" height="34" rx="7" fill="#241c33"/>
+    <path d="M1063 357 Q1082 359 1079 371 Q1076 380 1062 378" fill="none" stroke="#d7b6ff" stroke-width="3" opacity=".5"/>
+    <path class="steam" d="M1028 347 Q1019 337 1030 328 Q1040 320 1032 309"/>
+    <path class="steam st2" d="M1045 347 Q1037 337 1047 328 Q1056 320 1049 309"/>
+  </g>
+
+  <circle class="particle" cx="468" cy="184" r="3"/><circle class="particle p2" cx="720" cy="163" r="2.6"/><circle class="particle p3" cx="1088" cy="204" r="2.4"/>
+
+  <text x="84" y="91" fill="#8fb7ff" opacity=".45" font-family="monospace" font-size="12" letter-spacing="2">NIGHT MODE / BUILDING SYSTEMS</text>
+  <text x="84" y="111" fill="#d6c5ff" opacity=".32" font-family="monospace" font-size="11">data → models → agents → production</text>
+</svg>
