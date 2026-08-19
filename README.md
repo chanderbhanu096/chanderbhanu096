@@ -1,86 +1,81 @@
-### Hi there 👋, नमस्ते (Namaste) 🙏🏻 I'm Chander Bhanu  
+<div align="center">
 
-#### MSc Web & Data Science Student | Data Science • Machine Learning • Data Engineering • AI Engineering  
+<img src="assets/lofi-night.svg" width="100%" alt="Lofi night coding scene" />
 
-![Data Science Animation](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
+# Hi, I'm Chander Bhanu 👋
 
-I build **end-to-end data, machine learning, and AI systems**, from data pipelines, analytics, and explainable ML to **LLM-powered agents and production AI workflows**.  
-Focused on **practical, measurable, and scalable systems**, with a strong interest in understanding how they work under the hood.
+### MSc Web & Data Science
+**Data Science · Machine Learning · Data Engineering · AI Engineering**
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2"/>
+I build end-to-end systems where **data, machine learning, and modern AI** meet.
+From pipelines and explainable models to **LLM agents, retrieval, evaluation, and production workflows**.
 
-### 🧠 Skills & Tech Stack
+[GitHub](https://github.com/chanderbhanu096) · [LinkedIn](https://www.linkedin.com/in/chanderbhanu/)
 
-![Python](https://img.shields.io/badge/Python-Programming-informational?logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Data-informational?logo=postgresql&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-informational?logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-Orchestration-informational?logo=apacheairflow&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-Cloud-informational?logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-informational?logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containers-informational?logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-OS-informational?logo=linux&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-BI-informational?logo=tableau&logoColor=white)
-![Git](https://img.shields.io/badge/Git-Version%20Control-informational?logo=git&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-Agentic%20Systems-informational)
-![LLMs](https://img.shields.io/badge/LLMs-Generative%20AI-informational)
-![RAG](https://img.shields.io/badge/RAG-Retrieval-informational)
-![MCP](https://img.shields.io/badge/MCP-Tool%20Integration-informational)
-![MLOps](https://img.shields.io/badge/MLOps-Production%20ML-informational)
+</div>
 
 ---
 
-## 📌 Featured Projects
+## 🌙 What I'm working on
 
-🔗 **[Data Agent From Scratch](https://github.com/chanderbhanu096/data-agent-from-scratch)**  
-(LLM Agents • Text-to-SQL • Tool Calling • Retrieval • Evaluation • MCP)
+| AI engineering | Data + ML foundation |
+|---|---|
+| AI agents and agentic workflows | Data engineering pipelines |
+| LLMs, RAG, retrieval and embeddings | Applied machine learning |
+| MCP and tool calling | Model explainability |
+| Text-to-SQL and natural-language data interfaces | PySpark and Airflow |
+| LLM evaluation, guardrails and verification | Analytics and decision systems |
+| Tracing, memory, context and model routing | Azure data platforms |
+| Production AI and MLOps | Reproducible ML workflows |
 
-🔗 **[RewardLens: Post-Install Fraud Decision Lab](https://github.com/chanderbhanu096/rewardlens-fraud-decision-lab)**  
-(Python • SQL • Behavioral Analytics • Anomaly Detection • Decision Science)
-
-🔗 **[NYC Taxi Data Engineering & ML Pipeline](https://github.com/chanderbhanu096/nyc-taxi-ml-pipeline)**  
-(PySpark • Airflow • Azure • ML Pipeline)
-
-🔗 **[Sentiment Analysis with Deep Learning](https://github.com/chanderbhanu096/sentiment-analysis-nlp)**  
-(PyTorch • NLP • CNN/LSTM)
-
-🔗 **[Seoul Bike Sharing Demand Forecasting](https://github.com/chanderbhanu096/Seoul-Bike-Sharing-Demand)**  
-(Python • XGBoost • SHAP • Tableau)
+I like understanding what happens **under the hood**, building the important parts from first principles when it helps, and then making the system reliable enough to measure and use.
 
 ---
 
-### 🚀 Current Focus
+## 🛠 Stack
 
-- Building **AI agents and agentic workflows** with LLMs
-- **RAG, retrieval, embeddings, and context engineering**
-- **MCP, tool calling, and Text-to-SQL** systems
-- **LLM evaluation, guardrails, verification, and reliability**
-- **Tracing, observability, memory, and model routing**
-- Data engineering pipelines with **PySpark & Airflow**
-- Applied machine learning and **model explainability**
-- Cloud data and AI systems on **Azure**
-- **MLOps and production ML/AI workflows**
+**AI**  
+`LLMs` · `AI Agents` · `RAG` · `MCP` · `Tool Calling` · `Text-to-SQL` · `Embeddings` · `Evaluation` · `Guardrails`
 
----
+**Data & ML**  
+`Python` · `SQL` · `PySpark` · `Airflow` · `Machine Learning` · `XGBoost` · `PyTorch` · `SHAP` · `Tableau`
 
-### 🤝 Connect With Me
-
-[<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="40">](https://github.com/chanderbhanu096)
-[<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" height="40">](https://www.linkedin.com/in/chanderbhanu/)
+**Platform & Engineering**  
+`Azure` · `Docker` · `Terraform` · `GitHub Actions` · `Git` · `Linux` · `FastAPI`
 
 ---
 
-### 📊 GitHub Activity
+## ☕ Currently building
 
-![Profile views](https://komarev.com/ghpvc/?username=chanderbhanu096&label=Profile%20views&style=flat)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=chanderbhanu096&show_icons=true&theme=tokyonight)
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chanderbhanu096&layout=compact&theme=tokyonight" />
+| Project | What it explores |
+|---|---|
+| **[Data Agent From Scratch](https://github.com/chanderbhanu096/data-agent-from-scratch)** | Building a text-to-SQL agent from the loop up: tool calling, retrieval, verification, memory, evaluation, tracing and MCP. |
+| **[ForgeOps](https://github.com/chanderbhanu096/forgeops)** | Evidence-first AI for repository investigation, with explicit approvals and verification around model-driven work. |
+| **[ResearchFlow](https://github.com/chanderbhanu096/research-flow)** | Agentic research workflows with retrieval, evidence checks, human approval, analytics and production-minded architecture. |
 
 ---
 
-### 🐍 Contribution Activity
+## 📚 Selected data & ML work
 
-![snake gif](https://github.com/chanderbhanu096/chanderbhanu096/blob/output/github-contribution-grid-snake.svg)
+| Project | Focus |
+|---|---|
+| **[RewardLens](https://github.com/chanderbhanu096/rewardlens-fraud-decision-lab)** | Post-install fraud analytics, anomaly detection, thresholds and decision science. |
+| **[NYC Taxi Data Engineering & ML Pipeline](https://github.com/chanderbhanu096/nyc-taxi-ml-pipeline)** | PySpark, Airflow, Azure and end-to-end ML pipeline engineering. |
+| **[Seoul Bike Sharing Demand](https://github.com/chanderbhanu096/Seoul-Bike-Sharing-Demand)** | Forecasting with XGBoost, SHAP explainability and Tableau. |
+| **[Sentiment Analysis with Deep Learning](https://github.com/chanderbhanu096/sentiment-analysis-nlp)** | NLP with PyTorch, CNNs and LSTMs. |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+---
+
+## 🐍 Late-night contributions
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/chanderbhanu096/chanderbhanu096/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub contribution snake animation" />
+</div>
+
+---
+
+<div align="center">
+
+`late nights · clean systems · curious mind`
+
+</div>
