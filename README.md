@@ -28,6 +28,11 @@ From pipelines and explainable models to **LLM agents, retrieval, evaluation, an
 
 I like understanding what happens **under the hood**, building the important parts from first principles when it helps, and then making the system reliable enough to measure and use.
 
+<div align="center">
+<br/>
+<img src="assets/signal-flow-v2.svg" width="94%" alt="Animated flow from data to machine learning, agents and production" />
+</div>
+
 ---
 
 ## ⚡ Tech after dark
@@ -55,35 +60,19 @@ I like understanding what happens **under the hood**, building the important par
 
 ---
 
-## ☕ Currently building
+## ☕ Featured build
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td valign="top">
 
 ### 🤖 [Data Agent From Scratch](https://github.com/chanderbhanu096/data-agent-from-scratch)
 
-A text-to-SQL agent built from the loop up.
+A text-to-SQL agent built from the loop up instead of hiding the behavior behind an agent framework.
 
-`Agents` `Tool Calling` `Retrieval` `Evaluation` `Tracing` `MCP`
+It explores **tool calling, retrieval, plan → verify → repair, SQL guardrails, memory, tracing, evaluation, embeddings, model routing and MCP** against a real analytical warehouse.
 
-</td>
-<td width="33%" valign="top">
-
-### 🔎 [ForgeOps](https://github.com/chanderbhanu096/forgeops)
-
-Evidence-first AI for repository investigation and controlled model-driven work.
-
-`Agents` `Verification` `GitHub` `FastAPI` `Next.js`
-
-</td>
-<td width="33%" valign="top">
-
-### 🧠 [ResearchFlow](https://github.com/chanderbhanu096/research-flow)
-
-Agentic research workflows with retrieval, evidence checks and human approval.
-
-`RAG` `LangGraph` `Evaluation` `Analytics` `Azure`
+`LLM Agents` `Text-to-SQL` `Retrieval` `Evaluation` `Tracing` `MCP` `Azure`
 
 </td>
 </tr>
