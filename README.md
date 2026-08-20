@@ -62,10 +62,6 @@ I like understanding what happens **under the hood**, building the important par
 
 ## ☕ Featured build
 
-<table>
-<tr>
-<td valign="top">
-
 ### 🤖 [Data Agent From Scratch](https://github.com/chanderbhanu096/data-agent-from-scratch)
 
 A text-to-SQL agent built from the loop up instead of hiding the behavior behind an agent framework.
@@ -74,9 +70,10 @@ It explores **tool calling, retrieval, plan → verify → repair, SQL guardrail
 
 `LLM Agents` `Text-to-SQL` `Retrieval` `Evaluation` `Tracing` `MCP` `Azure`
 
-</td>
-</tr>
-</table>
+<div align="center">
+<br/>
+<img src="assets/agent-loop-v2.svg" width="92%" alt="Animated agent workflow from prompt through tools and verification to answer" />
+</div>
 
 ---
 
@@ -84,27 +81,19 @@ It explores **tool calling, retrieval, plan → verify → repair, SQL guardrail
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### ⚖️ [RewardLens](https://github.com/chanderbhanu096/rewardlens-fraud-decision-lab)
-Post-install fraud analytics, anomaly detection, thresholds and decision science.
-
-</td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🚕 [NYC Taxi ML Pipeline](https://github.com/chanderbhanu096/nyc-taxi-ml-pipeline)
 PySpark, Airflow, Azure and end-to-end ML pipeline engineering.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 🚲 [Seoul Bike Sharing Demand](https://github.com/chanderbhanu096/Seoul-Bike-Sharing-Demand)
 Forecasting with XGBoost, SHAP explainability and Tableau.
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### 💬 [Sentiment Analysis with Deep Learning](https://github.com/chanderbhanu096/sentiment-analysis-nlp)
 NLP with PyTorch, CNNs and LSTMs.
