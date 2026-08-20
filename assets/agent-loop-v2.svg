@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220" role="img" aria-labelledby="title desc">
+<title id="title">Animated agent workflow</title>
+<desc id="desc">A clean animated flow from prompt to tools to verification to answer.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1020"/><stop offset=".5" stop-color="#11152a"/><stop offset="1" stop-color="#1b1430"/></linearGradient>
+  <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#67e8f9"/><stop offset=".35" stop-color="#60a5fa"/><stop offset=".7" stop-color="#c084fc"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .title{font:600 15px monospace;fill:#edf0ff}.sub{font:12px monospace;fill:#8f98b5}.node{fill:#11182b;stroke-width:1.4}.n1{stroke:#67e8f9}.n2{stroke:#60a5fa}.n3{stroke:#c084fc}.n4{stroke:#f472b6}
+    .line{fill:none;stroke:url(#flow);stroke-width:2.5;stroke-dasharray:7 10;animation:move 1.6s linear infinite;opacity:.8}.pulse{animation:pulse 3.2s ease-in-out infinite}.p2{animation-delay:.7s}.p3{animation-delay:1.4s}.p4{animation-delay:2.1s}
+    .dot{filter:url(#glow)}
+    @keyframes move{to{stroke-dashoffset:-34}}@keyframes pulse{0%,100%{opacity:.72}50%{opacity:1;transform:translateY(-2px)}}
+  </style>
+</defs>
+<rect x="2" y="2" width="1096" height="216" rx="22" fill="url(#bg)" stroke="#6d63a8" stroke-opacity=".28"/>
+<text x="34" y="38" class="title">AGENT LOOP</text><text x="34" y="58" class="sub">small loop · explicit tools · verify before answer</text>
+<path class="line" d="M215 132 H332 M470 132 H587 M725 132 H842"/>
+<g class="pulse"><rect class="node n1" x="55" y="92" width="160" height="80" rx="18"/><circle class="dot" cx="82" cy="119" r="7" fill="#67e8f9"/><text x="103" y="124" class="title">PROMPT</text><text x="82" y="150" class="sub">intent + context</text></g>
+<g class="pulse p2"><rect class="node n2" x="332" y="92" width="138" height="80" rx="18"/><circle class="dot" cx="359" cy="119" r="7" fill="#60a5fa"/><text x="380" y="124" class="title">TOOLS</text><text x="359" y="150" class="sub">retrieve · query</text></g>
+<g class="pulse p3"><rect class="node n3" x="587" y="92" width="138" height="80" rx="18"/><circle class="dot" cx="614" cy="119" r="7" fill="#c084fc"/><text x="635" y="124" class="title">VERIFY</text><text x="614" y="150" class="sub">check · repair</text></g>
+<g class="pulse p4"><rect class="node n4" x="842" y="92" width="198" height="80" rx="18"/><circle class="dot" cx="869" cy="119" r="7" fill="#f472b6"/><text x="890" y="124" class="title">ANSWER</text><text x="869" y="150" class="sub">grounded output</text></g>
+</svg>
